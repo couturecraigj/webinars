@@ -1,3 +1,7 @@
+/**
+ * Programming basics
+ */
+
 // DECLARATIONS
 
 const nonReassigningVariable = 'string';
