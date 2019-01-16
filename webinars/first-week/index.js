@@ -64,8 +64,17 @@ class ClassOne {
   }
   typicalMethod(newData) {
     this.data = newData;
-    return true;
+    return this;
   }
 }
 
 const object = new ClassOne();
+
+console.log(object);
+console.log(object.data);
+console.log(object.getMethod());
+object.setMethod('added onto object');
+
+console.log(object);
+console.log(object.getMethod());
+console.log(object.typicalMethod('other'));
