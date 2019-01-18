@@ -82,3 +82,9 @@ object.setMethod('added onto object');
 console.log(object);
 console.log(object.getMethod());
 console.log(object.typicalMethod('other'));
+
+// ARRAYS
+
+const arr = [];
+
+const arr = ["abc", 123];
